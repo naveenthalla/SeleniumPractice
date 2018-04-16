@@ -1,0 +1,59 @@
+//tagname[@attribute1=’value1’][attribute2=’value2’]
+//tagName[@attribute1='value'][attribute2='value2']
+//a[@id=
+
+//a[@id=’id1’][@name=’namevalue1’]
+
+//img[@src=’’][@href=’’]
+
+// tagname[@attribute-name=’value1’]
+
+
+
+Example
+
+// a [@href=’http://www.google.com’]
+//input[@id=’name’]
+//input[@name=’username’]
+//img[@alt=’sometext’]
+
+using contains method:
+Syntax
+
+//tagname[contains(@attribute,’value1’)]
+//tagname[contains(@attribute,'value')]
+//input[contains(@id,'123')]
+//input[contains(@id,’’)]
+
+//input[contains(@name,’’)]
+
+//a[contains(@href,’’)]
+
+//img[contains(@src,’’)]
+//div[contains(@id,’’)]
+//tagname[starts-with(@attribute-name,’’)]
+
+
+Starts with command:
+//id[starts-with(@id,’’)]
+//id[starts-with(@id,'')
+//a[starts-with(@href=’’)]
+
+//img[starts-with(@src=’’)]
+
+//div[starts-with(@id=’’)]
+
+//input[starts-with(@id=’’)]
+
+//button[starts-with(@id,’’)]
+
+And so on.
+using Following node:
+
+Xpath/following::again-ur-regular-path
+
+//input[@id=’’]/following::input[1]
+//input[@id='']/following::input[1]
+//a[@href=’’]/following::a[1]
+//a[@href='1']/following::a[2]
+//img[@src=’’]/following::img[1]
